@@ -1,3 +1,4 @@
+import Location from '../assets/images/Location.svg';
 export default function Nav() {
   return (
     <nav className='navbar'>
@@ -16,4 +17,3 @@ export default function Nav() {
     </nav>
   )
 }
-import Location from '../assets/images/Location.svg';

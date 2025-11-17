@@ -1,4 +1,4 @@
-import headerImage from '../assets/header-image.png';
+import headerImage from '../assets/images/header-image.png';
 export default function Header() {
   return (
     <header className="header">
