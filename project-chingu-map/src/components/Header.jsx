@@ -1,4 +1,4 @@
-import headerImage from '../assets/header-image.png';
+import headerImage from '../assets/images/header-image.png';
 export default function Header() {
   return (
     <header className="header">
@@ -7,8 +7,8 @@ export default function Header() {
         <p>Explore and connect with fellow Chingu members across the globe. Our interactive map allows you to find and engage with the Chingu community in your area or anywhere in the world.</p>
 
         <div className="header-buttons">
-             <button>Get Started</button>
-              <button>Get Started</button>
+             <button className="header-button-white">Get Started</button>
+              <button className="header-button-black">Get Started</button>
          </div>
         </article>
 

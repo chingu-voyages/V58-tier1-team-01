@@ -5,6 +5,8 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Navbar styles */
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -47,31 +49,71 @@ body{
   border-radius: 15px;
   padding: 1rem 1.5rem;
 }
+
+/* Header styles */ 
+
 .header{
   display: flex;
+  align-items:flex-end ;
   flex-direction: row;
-  margin:auto;
+  justify-content: space-around;
+ 
+
  
 }
 .header-text{
+  
   background-color: lightsalmon;
-  width: 50%;
-  height: 500px;
   padding: 2rem;
+  
 }
 .header-text h1{
   font-size: 3rem;
   font-weight: normal;
+ 
+}
+.header-image{
+  background-color: aquamarine;
+}
+.header-buttons{
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 50%;
+
+}
+.footer{
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+}
+.footer-header{
+  margin:0;
+  padding: 2rem ;
+}
+.footer-team{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin:0;
+}
+.footer-team .team-member img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.team-member{
+  
+  padding:1.5em;
+}
+.footer-team .team-member h3{
+  margin: 0.5rem 0 0.2rem 0;
+}
+.footer-team .team-member p{
+  margin: 0;
+  font-size: 0.9rem;
+  color: gray;
 }
 
-.header-image{
-   width: 50%;
-  height: 500px;
-  background-color: lightgreen;
-  padding: 2rem;
-}
-.header-image img{
-  width: 100%;
-  height: auto;
-}
+
 
