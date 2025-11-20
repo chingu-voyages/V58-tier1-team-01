@@ -1,0 +1,31 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model ChinguMember {
+  id                Int      @id @default(autoincrement())
+  timestamp         DateTime?
+  gender            String?
+  country_code      String?
+  country_name      String?
+  timezone          String?
+  goal              String?
+  goal_other        String?
+  source            String?
+  source_other      String?
+  solo_project_tier String?
+  role_type         String?
+  voyage_role       String?
+  voyage            String?
+  voyage_tier       String?
+}

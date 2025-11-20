@@ -1,0 +1,14 @@
+      @import "tailwindcss";
+      body {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+
+@theme {
+  --color-brand-green: #B9FF66;
+  --color-brand-dark: #191A23;
+  --color-brand-gray: #F3F3F3;
+
+  --shadow-retro: 0 5px 0 #191A23;
+
+  --font-sans: "Space Grotesk", sans-serif;
+}

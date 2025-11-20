@@ -35,7 +35,7 @@ your repo access and to practice PR'ing with your team *before* you start
 coding!
 
 - Jugraj Singh Bali: [GitHub](https://github.com/jugrajsinghbali) / [LinkedIn](https://linkedin.com/in/jugraj-singh-bali-117994268/)
-- Teammate name #2: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
+- Israel Oyebamiji: [GitHub]([https://github.com/ghaccountname](https://github.com/UncleSam-tech)) / [LinkedIn](https://linkedin.com/in/israel-oyebamiji-7576a3342)
 
    ...
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)

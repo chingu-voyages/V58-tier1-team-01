@@ -1,15 +1,14 @@
 
 
 import './App.css'
-import Nav from './components/Nav.jsx'
-import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
+import Header from './components/Header.jsx'
+
 
 function App() {
   
   return (
     <>
-      <Nav />
       <Header />
       <Footer />
     </>
