@@ -36,6 +36,7 @@ coding!
 
 - Jugraj Singh Bali: [GitHub](https://github.com/jugrajsinghbali) / [LinkedIn](https://linkedin.com/in/jugraj-singh-bali-117994268/)
 - Israel Oyebamiji: [GitHub]([https://github.com/ghaccountname](https://github.com/UncleSam-tech)) / [LinkedIn](https://linkedin.com/in/israel-oyebamiji-7576a3342)
+-  Amin Khorram: [GitHub](https://github.com/aminkhoram) / [LinkedIn](https://www.linkedin.com/in/aminkhorram/)
 
    ...
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
