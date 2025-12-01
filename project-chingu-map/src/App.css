@@ -114,6 +114,43 @@ body{
   font-size: 0.9rem;
   color: gray;
 }
+/* list page style */
 
+.table-container{
+  background-color: aquamarine;
+  padding: 2rem;
+
+} 
+.table{
+  padding: 2rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}   
+table, th, td {
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+th, td {
+  padding: 12px; /* Adds space inside the cells */
+  text-align: left; /* Aligns text to the left */
+}
+
+thead th {
+  background-color: rgb(46, 45, 45); 
+  color: white; 
+  font-weight: bold;
+}
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3; 
+}   
+tbody tr:hover {
+  background-color: #e0e0e0; 
+}
+tfoot td {
+  background-color: aquamarine; 
+  font-weight: bold;
+  width: 100% ;
+} 
 
 
