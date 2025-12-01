@@ -1,14 +1,32 @@
-      @import "tailwindcss";
-      body {
-        font-family: 'Space Grotesk', sans-serif;
-      }
+@import "tailwindcss";
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
 
 @theme {
-  --color-brand-green: #B9FF66;
-  --color-brand-dark: #191A23;
-  --color-brand-gray: #F3F3F3;
+  --color-brand-green: #b9ff66;
+  --color-brand-dark: #191a23;
+  --color-brand-gray: #f3f3f3;
 
-  --shadow-retro: 0 5px 0 #191A23;
+  --shadow-retro: 0 5px 0 #191a23;
 
   --font-sans: "Space Grotesk", sans-serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.table-header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.table-row:hover {
+  background: rgba(185, 255, 102, 0.15);
 }

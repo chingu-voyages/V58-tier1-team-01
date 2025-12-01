@@ -1,4 +1,5 @@
 import { Compass } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,9 +10,24 @@ const Header = () => {
       </div>
 
       <nav className="flex items-center gap-8">
-        <a href="#" className="text-lg hover:underline decoration-2 underline-offset-4">Home</a>
-        <a href="#" className="text-lg hover:underline decoration-2 underline-offset-4">Map</a>
-        <a href="#" className="text-lg hover:underline decoration-2 underline-offset-4">List</a>
+        <Link
+          to="/"
+          className="text-lg hover:underline decoration-2 underline-offset-4"
+        >
+          Home
+        </Link>
+        <Link
+          to="/"
+          className="text-lg hover:underline decoration-2 underline-offset-4"
+        >
+          Map
+        </Link>
+        <Link
+          to="/ListPage"
+          className="text-lg hover:underline decoration-2 underline-offset-4"
+        >
+          List
+        </Link>
       </nav>
 
       <button className="border border-brand-dark px-6 py-3 rounded-xl text-brand-dark font-medium hover:bg-brand-dark hover:text-white transition-colors">
