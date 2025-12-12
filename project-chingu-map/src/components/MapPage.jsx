@@ -91,7 +91,7 @@ const MapPage = () => {
   );
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto px-4 py-8 relative min-h-screen">
+    <div className="w-full max-w-7xl mx-auto px-4 py-8 relative min-h-screen">
       <div className="mb-8 flex flex-col gap-2">
         <div className="flex items-center gap-2 text-brand-purple">
           <Globe className="w-6 h-6" />

@@ -31,7 +31,11 @@ const Header = () => {
       </nav>
 
       <button className="border border-brand-dark px-6 py-3 rounded-xl text-brand-dark font-medium hover:bg-brand-dark hover:text-white transition-colors">
-        13 october 2025
+        {new Date().toLocaleDateString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
       </button>
     </header>
   );
